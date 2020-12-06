@@ -144,3 +144,11 @@ function keyPressed(){
 		chain.attach(player.body);
 	}
 }
+
+function disapper(polygen){
+	if(polygen.visiblity=250<3){
+	    polygen.disapper();	
+	}
+}
+
+
